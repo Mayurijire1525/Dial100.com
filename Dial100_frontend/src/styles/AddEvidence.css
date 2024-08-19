@@ -1,0 +1,33 @@
+.add-evidence-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 50px auto;
+  }
+  
+  .add-evidence-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .add-evidence-form input, .add-evidence-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-evidence-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-evidence-form button:hover {
+    background-color: #45a049;
+  }

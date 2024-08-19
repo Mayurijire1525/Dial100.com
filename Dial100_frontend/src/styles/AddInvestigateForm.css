@@ -1,0 +1,145 @@
+/* General layout */
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* Side navigation styling */
+.side-nav {
+  background-color: #f0f0f0;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-nav ul li {
+  margin: 20px 0;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Container to hold the top nav and main content */
+.content-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Top navigation bar */
+.top-nav {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-options {
+  display: flex;
+  gap: 15px;
+}
+
+.profile-options a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Main content area */
+.main-content {
+  padding: 40px;
+  flex-grow: 1;
+  background-color: #fafafa;
+  overflow-y: auto;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 18px;
+}
+
+/* Form styling */
+.investigation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 500px auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,122 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.side-nav {
+  background-color: #f0f0f0;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-nav ul li {
+  margin: 20px 0;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Container to hold the top nav and main content */
+.content-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-nav {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-options {
+  display: flex;
+  gap: 15px;
+}
+
+.profile-options a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main-content {
+  padding: 40px;
+  flex-grow: 1;
+  background-color: #fafafa;
+  overflow-y: auto;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 18px;
+}
+
+/* Styles for the complaints table */
+.complaints-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.complaints-table th, .complaints-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.complaints-table th {
+  background-color: #f0f0f0;
+}
+
+.view-button {
+  padding: 8px 16px;
+  background-color: #888;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #666;
+}

@@ -1,0 +1,140 @@
+/* General layout */
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* Side navigation styling */
+.side-nav {
+  background-color: #f0f0f0;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-nav ul li {
+  margin: 20px 0;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Container to hold the top nav and main content */
+.content-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Top navigation bar */
+.top-nav {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-options {
+  display: flex;
+  gap: 15px;
+}
+
+.profile-options a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Main content area */
+.main-content {
+  padding: 40px;
+  flex-grow: 1;
+  background-color: #fafafa;
+  overflow-y: auto;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.investigation-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the details box horizontally */
+}
+
+.investigation-details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.update-section {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.update-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.update-section p {
+  font-size: 16px;
+}
+
+/* Button to view evidences */
+.view-evidences-btn {
+  display: block;
+  margin: 20px auto; /* Center horizontally and add vertical spacing */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.view-evidences-btn:hover {
+  background-color: #0056b3;
+}

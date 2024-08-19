@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #0044cc;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 28px; /* Increased font size for a more prominent logo */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Applied a modern font */
+  letter-spacing: 1px; /* Added some letter spacing for better readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added a subtle shadow for depth */
+  transition: transform 0.3s ease;
+}
+
+.logo a {
+  color: white; /* Ensure the link color matches the logo color */
+  text-decoration: none; /* Remove underline from the logo */
+}
+
+.logo:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}

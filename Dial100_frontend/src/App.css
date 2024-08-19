@@ -1,0 +1,87 @@
+/* General CSS for the entire app */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  border-bottom: 2px solid #444; /* Adjust the border to give it a sharp look */
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 1.8em;
+  text-decoration: none;
+  font-weight: bold; /* Make the logo text bolder */
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem; /* Add spacing between nav items */
+}
+
+.navbar .nav-links li {
+  display: inline;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0.5rem 1rem; /* Increase padding for a more prominent look */
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar .nav-links a:hover {
+  background-color: #555; /* Change background on hover */
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.hero-section {
+  background: url('/src/assets/hero-ladyjustice.png') no-repeat center center/cover;
+  color: #fff;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+}
+
+.cta-button {
+  background-color: #ff6347;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}

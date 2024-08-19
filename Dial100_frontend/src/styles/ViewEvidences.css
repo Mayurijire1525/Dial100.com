@@ -1,0 +1,111 @@
+/* General layout */
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* Side navigation styling */
+.side-nav {
+  background-color: #f0f0f0;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-nav ul li {
+  margin: 20px 0;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Container to hold the top nav and main content */
+.content-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Top navigation bar */
+.top-nav {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-options {
+  display: flex;
+  gap: 15px;
+}
+
+.profile-options a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Main content area */
+.main-content {
+  padding: 40px;
+  flex-grow: 1;
+  background-color: #fafafa;
+  overflow-y: auto;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the evidences list */
+.evidences-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.evidence-item {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.evidence-item p {
+  margin: 5px 0;
+  font-size: 16px;
+}
